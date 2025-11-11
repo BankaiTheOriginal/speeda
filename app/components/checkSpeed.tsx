@@ -48,7 +48,7 @@ export default function CheckSpeed() {
         </div>
       ) : (
         <div className="flex items-center gap-6 mt-8">
-          <div className="flex items-center w-80 justify-center">
+          <div className="flex items-center w-40 sm:w-48 md:w-64 lg:w-80 justify-center">
             <SpeedDisplay speed={speed} />
           </div>
 
